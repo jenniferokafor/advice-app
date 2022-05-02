@@ -12,7 +12,7 @@ export const StyledCard = styled.div`
         background-color: rgba(49, 58, 72, 1);
         color: rgba(206, 227, 233, 1);
         max-width: 21.438rem;
-        padding: 2.5rem 1.5rem 4rem 2.5rem;
+        padding: 2.5rem 1.5rem 4rem 1.5rem;
         margin-left: 1rem;
         margin-right: 1rem;
         border-radius: 10px;
@@ -66,14 +66,24 @@ export const StyledCard = styled.div`
             max-width: 33.75rem;
             padding: 3rem 3rem 4.5rem 3rem;
             margin: 0;
-        }
 
-        .mobile-divider {
-            display: none;
-        }
+            h4 {
+                font-size: 0.813rem;
 
-        .desktop-divider {
-            display: block;
+            }
+
+            p {
+                font-size: 1.75rem;
+                line-height: 2.391rem;
+            }
+
+            .mobile-divider {
+                display: none;
+            }
+
+            .desktop-divider {
+                display: block;
+            }
         }
     }
 `

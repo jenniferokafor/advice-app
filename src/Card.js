@@ -42,7 +42,7 @@ export default function Card () {
                 <p>“{advice.text}”</p>
                 <MobileDivider className='mobile-divider'/>
                 <DesktopDivider className='desktop-divider'/>
-                <div className='button-wrapper' onClick={handleClick}>
+                <div className='button-wrapper' onClick={handleClick} role='button'>
                     <Button />
                 </div>
             </div>
